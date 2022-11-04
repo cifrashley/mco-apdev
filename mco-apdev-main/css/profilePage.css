@@ -198,9 +198,10 @@ a:hover{
 }
 
 .accordion{
-    margin: 150;
+    margin-left: 150;
+    margin-right: 150;
+    margin-bottom: 50;
     margin-top: 50;
-    margin-bottom: 0;
 }
 
 .accordion-button{
@@ -232,8 +233,9 @@ a:hover{
 }
 
 .top-three{
-    margin: 150;
-    margin-top: 50;
+    margin-right: 150;
+    margin-left: 150;
+    margin-top: 30;
 }
 
 h3{
@@ -260,8 +262,14 @@ h3{
 }
 
 .card-img-top{
+    display: block;
     width: 383; 
     height: 650;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
 .card-title{
@@ -270,6 +278,11 @@ h3{
 }
 
 .card-text{
-    font-size: 13;
+    font-size: 15;
     text-align: justify;
+}
+
+
+.spacer{
+    padding-bottom: 50px;
 }
